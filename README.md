@@ -20,3 +20,8 @@ Strona główna aplikacji jest czytelna, prosta i intuicyjna. Po przejściu do s
 * widoczna możliwość filtrowania poprzez umieszczenie w nagłówku tabeli ikony filtrowania,
 * możliwość przejścia do pierwszej i ostatniej strony (jest tylko możliwość przejścia na następną stronę),
 * możliwość wyboru ilośći wyświetlanych rekordów na danej stronie.
+
+Drukowanie - inna forma ułożenia tekstu - brak formy tabeli
+Dodanie gracza:
+brak rozwijanej listy z pozycją do wyboru,
+ośiągnięcia - pisanie tylko w jednej linii - lepsza opcja z większą ilością miejsca na tekst
