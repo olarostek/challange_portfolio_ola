@@ -25,3 +25,9 @@ Drukowanie - inna forma ułożenia tekstu - brak formy tabeli
 Dodanie gracza:
 brak rozwijanej listy z pozycją do wyboru,
 ośiągnięcia - pisanie tylko w jednej linii - lepsza opcja z większą ilością miejsca na tekst
+Opcja wpisania wagi i wzrostu - niepotrzebne przyciski zwiększające i zmniejszające wartość o 1.
+Po dodaniu linka z youtube powinien być aktywny link 
+Przy najechaniu kursorem na gracza, kursor nie zmienia się na na pointer, przez co sugeruje, że z danymi nie można nic zrobić (a przecież da się edytować po kliknięciu)
+Nie można dodać listy zdarzeń przy edycji meczu.
+Nie ma opcji zmiany danych statystycznych.
+
