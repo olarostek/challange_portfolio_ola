@@ -30,4 +30,10 @@ Po dodaniu linka z youtube powinien być aktywny link
 Przy najechaniu kursorem na gracza, kursor nie zmienia się na na pointer, przez co sugeruje, że z danymi nie można nic zrobić (a przecież da się edytować po kliknięciu)
 Nie można dodać listy zdarzeń przy edycji meczu.
 Nie ma opcji zmiany danych statystycznych.
+Po utworzeniu meczu, jego modyfikacji i powrocie na główną stronę pojawia się informacja o niezapisanym meczu, jednak po kliknięciu opcji "wróć do edycji" nie ma takiej możliwości (bug?)
+
+Nie do końca wiadomo co autor aplikacji miał na myśli zostawiając puste pole zatytułowane "łączy nas piłka" czy też "90 minut"
+
+
+Aplikacja jest mało intuicyjna, powinna być na tyle prosta we funkcjonowaniu, aby nowa osoba nie musiała się zastanawiać co trzeba zrobić, aby dodać najważniejsze dane związane z umiejętnościami danego zawodnika.
 
