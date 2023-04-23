@@ -15,6 +15,11 @@ Polega na:
 3. śledzenia ich umiejętności,
 4. tworzeniu raportów z uwzględnieniem różnych czynników
 
+W czasie próby logowania pojawiają się pierwsze błędy:
+
+* wpisując poprawny login, ale złe hasło informacja o niepoprawnym loginie lub haśle,  wyświetlana jest w języku angielskim, mimo iż wybrany jest język polski.
+* niepoprawne dane do logowania powodują, że komunikat, który się pojawia przesuwa przyciski z wyborem języka i zaloguj w dół okna, co powoduje, że jest to nieestetyczne
+
 Strona główna aplikacji jest czytelna, prosta i intuicyjna. Po przejściu do sedna, czyli po kliknięciu na graczy, wyświetlana tabelka pokazuje jasne i zrozumiałe informacje. Na tym jednak prostota się kończy. Brakujące elementy, które ułatwiłyby dalsze poruszanie się po aplikacji:
 
 * widoczna możliwość filtrowania poprzez umieszczenie w nagłówku tabeli ikony filtrowania,
