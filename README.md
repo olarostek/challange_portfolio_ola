@@ -39,6 +39,13 @@ Kolejne błędy, które zostały znalezione w zakładce Gracze:
 * podczas dodawania meczu konkretnego zawodnika można wybrać datę przyszłą
 * w edycji meczu można wpisać czas z wartością minusową,
 
+Poniżej kilka błędów po wyborze edycji danego zawodnika:
+
+* po utworzeniu meczu, jego modyfikacji i powrocie na główną stronę pojawia się informacja o niezapisanym meczu, jednak po kliknięciu opcji "wróć do edycji" nie ma takiej możliwości,
+* kilkając w raport po lewej stronie, a następnie dodaj raport, zostajemy przekierowani nie na stronę z edycją raportu, ale na stronę z meczami (zły link przypisany do przycisku dodaj raport na górze strony), dopiero z tej pozycji, klikając w ikonę środkową możemy dodać nowy raport do meczu,
+* po kliknięciu w "submit" otwiera nam się strona, w której możemy na dole mamy link przekierowujący na stronę www.futboldetektyw.pl, jednak po kliknięciu w nią, wyskakuje komunikat, iż taka strona nie została znaleziona (błąd w elemencie a)
+ 
+
 Poniżej kilka kwestii dotyczących usability:
 
   - po kliknięciu "dodaj gracza" brak rozwijanej listy z pozycją zawodnika do wyboru,
@@ -46,10 +53,4 @@ Poniżej kilka kwestii dotyczących usability:
   - nie do końca wiadomo co autor aplikacji miał na myśli zostawiając puste pole zatytułowane "łączy nas piłka" czy też "90 minut"
 
 
-Nie można dodać listy zdarzeń przy edycji meczu.
-Nie ma opcji zmiany danych statystycznych.
-Po utworzeniu meczu, jego modyfikacji i powrocie na główną stronę pojawia się informacja o niezapisanym meczu, jednak po kliknięciu opcji "wróć do edycji" nie ma takiej możliwości
-
-
-Aplikacja jest mało intuicyjna, powinna być na tyle prosta we funkcjonowaniu, aby nowa osoba nie musiała się zastanawiać co trzeba zrobić, aby dodać najważniejsze dane związane z umiejętnościami danego zawodnika.
-
+Podsumowując aplikacja jest mało intuicyjna, powinna być na tyle prosta we funkcjonowaniu, aby nowa osoba nie musiała się zastanawiać co trzeba zrobić, aby dodać najważniejsze dane związane z umiejętnościami danego zawodnika.
