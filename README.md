@@ -72,3 +72,6 @@ Przypadki testowe umożliwiają:
 Wszystko po to, aby móc zweryfikować czy określona funkcjonalność działa zgodnie z oczekiwaniami.
 Pisanie przypadków testowych umożliwia więc prawidłowe testowanie systemu, aplikacji, co w konsekwencji przekłada się na poprawę niezawodności tworzonego oprogramowania. Pozwala dodatkowo lepiej zrozumieć oczekiwania biznesowe, co w konsekwencji przyczyni się do zadowolenia klienta i prawidłowej współpracy pomiędzy uczestnikami. Dobrze przetestowany produkt to duże prawdopodobieństwo wypuszczenia produktu spełniającego oczekiwania nie tylko klienta, ale przede wszystkim użytkowników.
 
+## Subtask 4
+https://docs.google.com/spreadsheets/d/1VgJt98b6bYua1-8JfPPsxL6sXEJKsAZaQiAxdqr93Bk/edit?usp=share_link
+
