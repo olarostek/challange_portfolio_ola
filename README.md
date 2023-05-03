@@ -56,6 +56,11 @@ Poniżej kilka kwestii dotyczących usability:
 Podsumowując aplikacja jest mało intuicyjna, powinna być na tyle prosta we funkcjonowaniu, aby nowa osoba nie musiała się zastanawiać co trzeba zrobić, aby dodać najważniejsze dane związane z umiejętnościami danego zawodnika.
 
 # Task 2
+## Subtask 1
+https://docs.google.com/document/d/17D-BikjEUZibNXc3xewLm7Wyb_F6susp9aSmoBRhKGc/edit?usp=sharing
+## Subtask 2
+https://docs.google.com/document/d/1yb9OE22LTHD5NW46WWSOaZNwbMr_1ym8CrZOQzPN3GE/edit?usp=sharing
+
 ## Subtask 3
 Przypadki testowe to bardzo ważny aspekt procesu testowania oprogramowania. Pisząc przypadki testowe opisujemy tym samym kroki, które trzeba wykonać, aby sprawdzić działanie konkretnej funkcjonalności systemu lub też apliakcji.
 Przypadki testowe umożliwiają:
