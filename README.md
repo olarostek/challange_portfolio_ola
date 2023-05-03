@@ -54,3 +54,16 @@ Poniżej kilka kwestii dotyczących usability:
 
 
 Podsumowując aplikacja jest mało intuicyjna, powinna być na tyle prosta we funkcjonowaniu, aby nowa osoba nie musiała się zastanawiać co trzeba zrobić, aby dodać najważniejsze dane związane z umiejętnościami danego zawodnika.
+
+# Task 2
+## Subtask 3
+Przypadki testowe to bardzo ważny aspekt procesu testowania oprogramowania. Pisząc przypadki testowe opisujemy tym samym kroki, które trzeba wykonać, aby sprawdzić działanie konkretnej funkcjonalności systemu lub też apliakcji.
+Przypadki testowe umożliwiają:
+
+* zaplanowanie testów
+* uporządkowanie testów,
+* powtórzenie dokładnych kroków do odtworzenia przez każdego testera
+
+Wszystko po to, aby móc zweryfikować czy określona funkcjonalność działa zgodnie z oczekiwaniami.
+Pisanie przypadków testowych umożliwia więc prawidłowe testowanie systemu, aplikacji, co w konsekwencji przekłada się na poprawę niezawodności tworzonego oprogramowania. Pozwala dodatkowo lepiej zrozumieć oczekiwania biznesowe, co w konsekwencji przyczyni się do zadowolenia klienta i prawidłowej współpracy pomiędzy uczestnikami. Dobrze przetestowany produkt to duże prawdopodobieństwo wypuszczenia produktu spełniającego oczekiwania nie tylko klienta, ale przede wszystkim użytkowników.
+
