@@ -83,3 +83,4 @@ https://docs.google.com/spreadsheets/d/1VfiKt3gnKMrn8xvNtIucffeSJgK9-ok_r4UU9uag
 https://docs.google.com/spreadsheets/d/1Yfqzht6YNsvPOchZkJMm4pjl2nOUyDE4RnX3iv3WD1g/edit?usp=sharing
 
 ## Subtask 3
+https://docs.google.com/document/d/1efpFIAwh7yte6ytrQ_yFsukAgknW98ZSztR-xsCVtd0/edit?usp=sharing
