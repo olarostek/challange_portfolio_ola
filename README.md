@@ -84,3 +84,11 @@ https://docs.google.com/spreadsheets/d/1Yfqzht6YNsvPOchZkJMm4pjl2nOUyDE4RnX3iv3W
 
 ## Subtask 3
 https://docs.google.com/document/d/1efpFIAwh7yte6ytrQ_yFsukAgknW98ZSztR-xsCVtd0/edit?usp=sharing
+
+# Task 4
+## Subtask 3
+
+1. Aplikacja ta służy przede wszystkim do:
+* przeglądania w celach zakupowych różnych ofert użytkowników społeczności korzystającej z tej aplikacji,
+* finalizacji procesu przeglądania
+* umożliwienie nawiązania kontaktu pomiędzy kupującymi i sprzedającymi.
