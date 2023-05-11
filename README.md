@@ -90,5 +90,6 @@ https://docs.google.com/document/d/1efpFIAwh7yte6ytrQ_yFsukAgknW98ZSztR-xsCVtd0/
 
 1. Aplikacja ta służy przede wszystkim do:
 * przeglądania w celach zakupowych różnych ofert użytkowników społeczności korzystającej z tej aplikacji,
-* finalizacji procesu przeglądania
-* umożliwienie nawiązania kontaktu pomiędzy kupującymi i sprzedającymi.
+* finalizacji procesu przeglądania,
+* sprzedaży 
+* umożliwienie nawiązania kontaktu pomiędzy kupującymi i sprzedającymi,
