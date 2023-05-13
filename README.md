@@ -93,3 +93,10 @@ https://docs.google.com/document/d/1efpFIAwh7yte6ytrQ_yFsukAgknW98ZSztR-xsCVtd0/
 * finalizacji procesu przeglądania,
 * sprzedaży 
 * umożliwienie nawiązania kontaktu pomiędzy kupującymi i sprzedającymi,
+
+2. Użytkownikiem końcowym aplikacji są 2 rodzaje grup:
+
+1. osoby, które chcą sprzedać swoje produkty,
+2. osoby, które poszukują różnych produktów
+
+
