@@ -89,6 +89,7 @@ https://docs.google.com/document/d/1efpFIAwh7yte6ytrQ_yFsukAgknW98ZSztR-xsCVtd0/
 ## Subtask 3
 
 1. Aplikacja ta służy przede wszystkim do:
+
 * przeglądania w celach zakupowych różnych ofert użytkowników społeczności korzystającej z tej aplikacji,
 * finalizacji procesu przeglądania,
 * sprzedaży 
@@ -96,7 +97,35 @@ https://docs.google.com/document/d/1efpFIAwh7yte6ytrQ_yFsukAgknW98ZSztR-xsCVtd0/
 
 2. Użytkownikiem końcowym aplikacji są 2 rodzaje grup:
 
-1. osoby, które chcą sprzedać swoje produkty,
-2. osoby, które poszukują różnych produktów
+* osoby, które chcą sprzedać swoje produkty,
+* osoby, które poszukują różnych produktów
+
+3. Wg mojej opinii aplikacja jest user friendly. Posiada wszystkie cechy aplikacji przyjaznej dla końcowego użytkownika:
+
+* intuicyjność,
+* przyjazny interfejs,
+* szybkie łączenie się z pomocą
+* szybką odpowiedź na działania użytkownika,
+* przejrzystą, uporządkowaną treść
+
+5. Podstawoe różnice pomiędzy testowaniem aplikacji mobilnych w webowych
+
+* różne platformy: 
+1. webowe tu uruchamiamy przeglądarki internetowe
+   1. urządzenia komputerowe, 
+   2. smartfony, 
+   3. tablety
+2. urządzenia mobilne:
+   1. smartfony, 
+   2. tablety
+ 
+* różne testy
+1. aplikacje webowe wymagają testów, które będą sprawdzały ich kompatybilność z różnymi sensorami (ekran dotykowy, kamera, GPS)
+2. testy bezpieczeństwa - w apliakcjach mobilnych koniecznie jest uwzględnienie bezpieczeństwa urządzeń jak i sieci, w której działa dane urządzenie
+
+* testowanie wydajności, stabilności aplikacji mobilnych jest ważniejsze niż w przypadku aplikacji webowych - apliakcje mobilne muszą być bardzo responsywne, by nie zniechęcić użytkownika do dalszego z nich korzysatania
+* oprogramowanie - narzędzia do testowania aplikacji webowych działają w przeglądarkach internetowych, z kolei narzędzia do testowania aplikacji mobilnych muszą być dostosowane do szczególnych wymagań platform mobilnych, wymagają też ich instalacji na tych urządzeniach
+
+
 
 
