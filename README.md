@@ -118,11 +118,8 @@ https://docs.google.com/document/d/1efpFIAwh7yte6ytrQ_yFsukAgknW98ZSztR-xsCVtd0/
 2. urządzenia mobilne:
    1. smartfony, 
    2. tablety
- 
-* różne testy
-1. aplikacje webowe wymagają testów, które będą sprawdzały ich kompatybilność z różnymi sensorami (ekran dotykowy, kamera, GPS)
-2. testy bezpieczeństwa - w apliakcjach mobilnych koniecznie jest uwzględnienie bezpieczeństwa urządzeń jak i sieci, w której działa dane urządzenie
-
+* różne testy - aplikacje webowe wymagają testów, które będą sprawdzały ich kompatybilność z różnymi sensorami (ekran dotykowy, kamera, GPS)
+* testy bezpieczeństwa - w apliakcjach mobilnych koniecznie jest uwzględnienie bezpieczeństwa urządzeń jak i sieci, w której działa dane urządzenie
 * testowanie wydajności, stabilności aplikacji mobilnych jest ważniejsze niż w przypadku aplikacji webowych - apliakcje mobilne muszą być bardzo responsywne, by nie zniechęcić użytkownika do dalszego z nich korzysatania
 * oprogramowanie - narzędzia do testowania aplikacji webowych działają w przeglądarkach internetowych, z kolei narzędzia do testowania aplikacji mobilnych muszą być dostosowane do szczególnych wymagań platform mobilnych, wymagają też ich instalacji na tych urządzeniach
 
