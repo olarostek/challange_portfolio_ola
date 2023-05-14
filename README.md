@@ -108,8 +108,11 @@ https://docs.google.com/document/d/1efpFIAwh7yte6ytrQ_yFsukAgknW98ZSztR-xsCVtd0/
 * szybką odpowiedź na działania użytkownika (responsywność)
 * przejrzystą, uporządkowaną treść
 
-4. Usprawnienia: zdjęcia powinny mieć możliwość przeglądania w poziomie
-możliwość wyszukiwania kategorii za pomocą pola do wyszukiwania - aktualnie brak takiej możliwości
+4. Usprawnienia, które mogłyby ulepszyć aplikację:
+
+* zdjęcia powinny mieć możliwość przeglądania w poziomie
+* możliwość wyszukiwania kategorii za pomocą pola do wyszukiwania - aktualnie brak takiej możliwości,
+* możliwość wybrania profilu użytkownika, którego aktualnie jest oglądany przedmiot sprzedaży poprzez kliknięcie nazwy jego profilu
 
 5. Podstawowe różnice pomiędzy testowaniem aplikacji mobilnych a webowych
 
