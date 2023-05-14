@@ -95,7 +95,7 @@ https://docs.google.com/document/d/1efpFIAwh7yte6ytrQ_yFsukAgknW98ZSztR-xsCVtd0/
 * sprzedaży 
 * umożliwienie nawiązania kontaktu pomiędzy kupującymi i sprzedającymi,
 
-2. Użytkownikiem końcowym aplikacji są 2 rodzaje grup:
+2. Użytkownikami końcowymi aplikacji są 2 rodzaje grup:
 
 * osoby, które chcą sprzedać swoje produkty,
 * osoby, które poszukują różnych produktów
@@ -104,23 +104,26 @@ https://docs.google.com/document/d/1efpFIAwh7yte6ytrQ_yFsukAgknW98ZSztR-xsCVtd0/
 
 * intuicyjność,
 * przyjazny interfejs,
-* szybkie łączenie się z pomocą
-* szybką odpowiedź na działania użytkownika,
+* szybkie łączenie się z pomocą,
+* szybką odpowiedź na działania użytkownika (responsywność)
 * przejrzystą, uporządkowaną treść
 
-5. Podstawoe różnice pomiędzy testowaniem aplikacji mobilnych w webowych
+4. Usprawnienia: zdjęcia powinny mieć możliwość przeglądania w poziomie
+możliwość wyszukiwania kategorii za pomocą pola do wyszukiwania - aktualnie brak takiej możliwości
+
+5. Podstawowe różnice pomiędzy testowaniem aplikacji mobilnych a webowych
 
 * różne platformy: 
-1. webowe tu uruchamiamy przeglądarki internetowe
-   1. urządzenia komputerowe, 
-   2. smartfony, 
-   3. tablety
+1. webowe - tu uruchamiamy przeglądarki internetowe na 
+   1. urządzeniach komputerowych, 
+   2. smartfonach, 
+   3. tabletach
 2. urządzenia mobilne:
    1. smartfony, 
    2. tablety
 * różne testy - aplikacje webowe wymagają testów, które będą sprawdzały ich kompatybilność z różnymi sensorami (ekran dotykowy, kamera, GPS)
 * testy bezpieczeństwa - w apliakcjach mobilnych koniecznie jest uwzględnienie bezpieczeństwa urządzeń jak i sieci, w której działa dane urządzenie
-* testowanie wydajności, stabilności aplikacji mobilnych jest ważniejsze niż w przypadku aplikacji webowych - apliakcje mobilne muszą być bardzo responsywne, by nie zniechęcić użytkownika do dalszego z nich korzysatania
+* testowanie wydajności, stabilności aplikacji mobilnych jest ważniejsze niż w przypadku aplikacji webowych - apliakacje mobilne muszą być bardzo responsywne, by nie zniechęcić użytkownika do dalszego z nich korzysatania
 * oprogramowanie - narzędzia do testowania aplikacji webowych działają w przeglądarkach internetowych, z kolei narzędzia do testowania aplikacji mobilnych muszą być dostosowane do szczególnych wymagań platform mobilnych, wymagają też ich instalacji na tych urządzeniach
 
 
