@@ -76,7 +76,7 @@ Pisanie przypadków testowych umożliwia więc prawidłowe testowanie systemu, a
 https://docs.google.com/spreadsheets/d/1VgJt98b6bYua1-8JfPPsxL6sXEJKsAZaQiAxdqr93Bk/edit?usp=share_link
 
 # Task 3
-## Subtaska 1
+## Subtask 1
 https://docs.google.com/spreadsheets/d/1VfiKt3gnKMrn8xvNtIucffeSJgK9-ok_r4UU9uagUXg/edit?usp=sharing
 
 ## Subtask 2
