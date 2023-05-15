@@ -87,7 +87,7 @@ https://docs.google.com/document/d/1efpFIAwh7yte6ytrQ_yFsukAgknW98ZSztR-xsCVtd0/
 
 # ``Task 4``
 ## Subtask 1
-https://docs.google.com/spreadsheets/d/1fjltdKRO-ytSKI8-HGjfd3qDA8tD1H5Vkipo0Z1uTOU/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1fjltdKRO-ytSKI8-HGjfd3qDA8tD1H5Vkipo0Z1uTOU/edit?usp=drive_web&ouid=117693323209969745448
 
 ## Subtask 3
 
