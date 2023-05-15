@@ -1,4 +1,4 @@
-# Task 1
+# ``Task 1``
 ## Subtask 1
 8 punktów
 ## Subtask 3
@@ -55,7 +55,7 @@ Poniżej kilka kwestii dotyczących usability:
 
 Podsumowując aplikacja jest mało intuicyjna, powinna być na tyle prosta we funkcjonowaniu, aby nowa osoba nie musiała się zastanawiać co trzeba zrobić, aby dodać najważniejsze dane związane z umiejętnościami danego zawodnika.
 
-# Task 2
+# ``Task 2``
 ## Subtask 1
 https://docs.google.com/document/d/17D-BikjEUZibNXc3xewLm7Wyb_F6susp9aSmoBRhKGc/edit?usp=sharing
 ## Subtask 2
@@ -75,7 +75,7 @@ Pisanie przypadków testowych umożliwia więc prawidłowe testowanie systemu, a
 ## Subtask 4
 https://docs.google.com/spreadsheets/d/1VgJt98b6bYua1-8JfPPsxL6sXEJKsAZaQiAxdqr93Bk/edit?usp=share_link
 
-# Task 3
+# ``Task 3``
 ## Subtask 1
 https://docs.google.com/spreadsheets/d/1VfiKt3gnKMrn8xvNtIucffeSJgK9-ok_r4UU9uagUXg/edit?usp=sharing
 
@@ -85,7 +85,7 @@ https://docs.google.com/spreadsheets/d/1Yfqzht6YNsvPOchZkJMm4pjl2nOUyDE4RnX3iv3W
 ## Subtask 3
 https://docs.google.com/document/d/1efpFIAwh7yte6ytrQ_yFsukAgknW98ZSztR-xsCVtd0/edit?usp=sharing
 
-# Task 4
+# ``Task 4``
 ## Subtask 1
 https://docs.google.com/spreadsheets/d/1fjltdKRO-ytSKI8-HGjfd3qDA8tD1H5Vkipo0Z1uTOU/edit?usp=sharing
 
