@@ -132,6 +132,83 @@ https://docs.google.com/spreadsheets/d/1fjltdKRO-ytSKI8-HGjfd3qDA8tD1H5Vkipo0Z1u
 * testowanie wydajności, stabilności aplikacji mobilnych jest ważniejsze niż w przypadku aplikacji webowych - apliakacje mobilne muszą być bardzo responsywne, by nie zniechęcić użytkownika do dalszego z nich korzysatania
 * oprogramowanie - narzędzia do testowania aplikacji webowych działają w przeglądarkach internetowych, z kolei narzędzia do testowania aplikacji mobilnych muszą być dostosowane do szczególnych wymagań platform mobilnych, wymagają też ich instalacji na tych urządzeniach
 
+# ``Task 5``
 
+## Subtask 1
 
+### Poznane zapytania, komendy
 
+- create table
+- insert into
+- select from
+
+### Poznane klauzule, operatory
+
+- order by
+- where
+- 
+
+## Subtask 3
+
+1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+
+```
+select * from actors
+order by surname
+```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/48e3383b-d4f4-4067-b1d1-525bd07975d6)
+
+2. Wyświetl film, który powstał w 2019 roku.
+
+```
+select * from 
+```
+
+3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+```
+select * from 
+```
+
+4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
+
+```
+select * from 
+```
+
+5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+
+```
+select * from 
+```
+
+6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+
+```
+select * from 
+```
+
+7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+
+```
+select * from 
+```
+
+8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+
+```
+select * from 
+```
+
+9. Wyświetl dane klienta, który nie ma podanego adresu email.
+
+```
+select * from 
+```
+
+10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+
+```
+select * from 
+```
