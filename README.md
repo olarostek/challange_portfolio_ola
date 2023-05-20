@@ -149,6 +149,9 @@ https://docs.google.com/spreadsheets/d/1fjltdKRO-ytSKI8-HGjfd3qDA8tD1H5Vkipo0Z1u
 - between
 - =, <, >, <=, >=
 - and, or
+- in, not in
+- like
+- is null, is not null
 
 ## Subtask 3
 
@@ -199,29 +202,41 @@ where actor_id >= 7 and actor_id <= 9
 6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
 
 ```
-select * from 
+select * from customers
+where customer_id = 2 or customer_id = 4 or customer_id = 6
 ```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/a93d8c2f-c917-42cc-a776-bc3b638480b3)
 
 7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
 
 ```
-select * from 
+select * from customers
+where customer_id in (1, 3, 5)
 ```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/a1411a3e-7494-4a0a-b185-9aaf1b517f7e)
 
 8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
 
 ```
-select * from 
+select * from actors
+where name like 'An%'
 ```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/6a04afdf-1781-4ff5-869a-8a82e1f2e08d)
 
 9. Wyświetl dane klienta, który nie ma podanego adresu email.
 
 ```
-select * from 
+select * from customers
+where email is null
 ```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/f67fae51-d742-4ff9-a4f0-e1f4f9a72169)
 
 10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
 
 ```
-select * from 
+
 ```
