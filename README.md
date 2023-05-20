@@ -146,7 +146,9 @@ https://docs.google.com/spreadsheets/d/1fjltdKRO-ytSKI8-HGjfd3qDA8tD1H5Vkipo0Z1u
 
 - order by
 - where
-- 
+- between
+- =, <, >, <=, >=
+- and, or
 
 ## Subtask 3
 
@@ -162,26 +164,37 @@ order by surname
 2. Wyświetl film, który powstał w 2019 roku.
 
 ```
-select * from 
+select * from movies
+where year_of_production = 2019
 ```
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/1197791e-dba8-48b8-89c9-bc3356d0c1d4)
 
 3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
 
 ```
-select * from 
+select * from movies
+where year_of_production between 1900 and 1999
 ```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/9616605e-f533-4f9f-9770-4e0728274adc)
 
 4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
 
 ```
-select * from 
+select title, price from movies
+where price < 7.0
 ```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/3cb10414-5f8f-4842-b13e-5007c2bc9db6)
 
 5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
 
 ```
-select * from 
+select * from actors
+where actor_id >= 7 and actor_id <= 9
 ```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/13ccab18-1ee1-4fde-a713-c3c3a20bef8f)
 
 6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
 
