@@ -197,7 +197,7 @@ select * from actors
 where actor_id >= 7 and actor_id <= 9
 ```
 
-![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/13ccab18-1ee1-4fde-a713-c3c3a20bef8f)
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/93299e22-f58e-496b-be47-9efa7b910ca3)
 
 6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
 
@@ -239,7 +239,7 @@ where email is null
 
 ```
 select * from movies
-where price > 9 and movie_id between 2 and 8
+where (price > 9) and (movie_id between 2 and 8)
 ```
 
 ![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/ae94bc56-8848-4a4c-a720-ab9ad184c193)
