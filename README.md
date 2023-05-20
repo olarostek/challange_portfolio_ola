@@ -238,5 +238,8 @@ where email is null
 10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
 
 ```
-
+select * from movies
+where price > 9 and movie_id between 2 and 8
 ```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/ae94bc56-8848-4a4c-a720-ab9ad184c193)
