@@ -297,15 +297,13 @@ order by c.surname, c.name
 ```
 alter table customers add pseudonym varchar(20) default null ;
 
-update customers set pseudonym = 'Ols' where customer_id = 1 ;
-update customers set pseudonym = 'Kal' where customer_id = 2 ;
-update customers set pseudonym = 'Anr' where customer_id = 3 ;
-update customers set pseudonym = 'Par' where customer_id = 4 ;
-update customers set pseudonym = 'Mao' where customer_id = 5 ;
-update customers set pseudonym = 'Nag' where customer_id = 6 ;
+update customers
+set pseudonym = concat(substring(name, 1, 2), substring(surname, -1, 1))
 ```
 
-![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/d75f1712-9205-4736-8a15-c8eb73cbb92a)
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/4f4bdd47-6f2e-41c7-a891-fddb7fff3925)
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/4e4d96ca-f64a-44cb-a32b-717404b8dca3)
 
 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
