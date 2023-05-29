@@ -243,3 +243,83 @@ where (price > 9) and (movie_id between 2 and 8)
 ```
 
 ![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/ae94bc56-8848-4a4c-a720-ab9ad184c193)
+
+11. Xxx
+
+```
+
+```
+
+Yyy
+
+12. Xxx
+
+```
+
+```
+
+Yyy
+
+13. Xxx
+
+```
+
+```
+
+Yyy
+
+14. Xxx
+
+```
+
+```
+
+Yyy
+
+15. Xxx
+
+```
+
+```
+
+Yyy
+
+16. Xxx
+
+```
+
+```
+
+Yyy
+
+17. Xxx
+
+```
+
+```
+
+Yyy
+
+18. Xxx
+
+```
+
+```
+
+Yyy
+
+19. Xxx
+
+```
+
+```
+
+Yyy
+
+20. Xxx
+
+```
+
+```
+
+Yyy
