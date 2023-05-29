@@ -334,8 +334,12 @@ order by name
 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
 
 ```
-
+update movies
+set price = price + 2.5
+where year_of_production > 2000
 ```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/83d960f5-f2a0-4bc8-98ad-6cbc80f2ae0a)
 
 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
 
