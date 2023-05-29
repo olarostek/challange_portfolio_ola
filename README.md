@@ -244,82 +244,118 @@ where (price > 9) and (movie_id between 2 and 8)
 
 ![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/ae94bc56-8848-4a4c-a720-ab9ad184c193)
 
-11. Xxx
+11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd.
+
+```
+update customers
+set surname = 'Miler'
+where surname = 'Muler' and name = 'Ania'
+```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/4b7b2fca-113e-4d33-b670-d835c8b1d915)
+
+12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+
+```
+select s.movie_id, s.sale_date, c.customer_id, c.name, c.email
+from sale as s
+join customers as c on c.customer_id = s.customer_id
+where s.movie_id = 4
+order by s.sale_date desc
+```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/bde1e105-37cf-4f82-8920-07d6e86487c6)
+
+13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+
+```
+select * from customers where name = 'Patrycja' ;
+
+update customers
+set email = 'pati@mail.com'
+where customer_id = 4
+```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/ca4c1652-dfbe-4627-bf6d-98452277dcbf)
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/d90389a8-995f-4b8f-9c6b-7ce11ac65e7e)
+
+14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+
+```
+select c.name, c.surname, m.title
+from sale as s
+join customers as c on c.customer_id = s.customer_id
+join movies as m on m.movie_id = s.movie_id
+order by c.surname, c.name
+```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/3cfeb99d-5643-473e-97e9-c1031f9ca477)
+
+15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
+```
+alter table customers add pseudonym varchar(20) default null ;
+
+update customers set pseudonym = 'Ols' where customer_id = 1 ;
+update customers set pseudonym = 'Kal' where customer_id = 2 ;
+update customers set pseudonym = 'Anr' where customer_id = 3 ;
+update customers set pseudonym = 'Par' where customer_id = 4 ;
+update customers set pseudonym = 'Mao' where customer_id = 5 ;
+update customers set pseudonym = 'Nag' where customer_id = 6 ;
+```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/d75f1712-9205-4736-8a15-c8eb73cbb92a)
+
+16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+
+```
+select distinct m.title
+from sale as s
+join movies as m on m.movie_id = s.movie_id
+order by m.title
+```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/0b27a3fd-d44e-4322-a1b9-f180f18b8127)
+
+17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+
+```
+select name
+from customers
+union
+select name
+from actors
+order by name
+```
+
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/2c0865b1-1560-48c2-9d7b-549904341330)
+
+18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
 
 ```
 
 ```
 
-Yyy
-
-12. Xxx
+19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
 
 ```
-
+select a.name, a.surname, m.title
+from cast c
+join actors a on a.actor_id = c.actor_id
+join movies m on m.movie_id = c.movie_id
+where a.actor_id = 4
 ```
 
-Yyy
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/23cb87f9-8839-4779-bbd6-80c0f9f1507e)
 
-13. Xxx
-
-```
+20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
 
 ```
-
-Yyy
-
-14. Xxx
-
+insert into customers
+(customer_id, name, surname, email, pseudonym)
+values
+(7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 ```
 
-```
-
-Yyy
-
-15. Xxx
-
-```
-
-```
-
-Yyy
-
-16. Xxx
-
-```
-
-```
-
-Yyy
-
-17. Xxx
-
-```
-
-```
-
-Yyy
-
-18. Xxx
-
-```
-
-```
-
-Yyy
-
-19. Xxx
-
-```
-
-```
-
-Yyy
-
-20. Xxx
-
-```
-
-```
-
-Yyy
+![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/05227b19-ba3e-4303-877b-b1c182ecd7b0)
