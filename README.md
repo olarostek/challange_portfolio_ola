@@ -244,6 +244,10 @@ where (price > 9) and (movie_id between 2 and 8)
 
 ![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/ae94bc56-8848-4a4c-a720-ab9ad184c193)
 
+# ``Task 5``
+
+## Subtask 1
+
 11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd.
 
 ```
