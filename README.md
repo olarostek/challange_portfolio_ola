@@ -244,7 +244,7 @@ where (price > 9) and (movie_id between 2 and 8)
 
 ![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/ae94bc56-8848-4a4c-a720-ab9ad184c193)
 
-# ``Task 5``
+# ``Task 6``
 
 ## Subtask 1
 
@@ -365,3 +365,8 @@ values
 ```
 
 ![image](https://github.com/olarostek/challenge_portfolio_ola/assets/129790470/05227b19-ba3e-4303-877b-b1c182ecd7b0)
+
+## Subtask 2
+
+14 punktów
+
