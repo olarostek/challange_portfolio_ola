@@ -372,5 +372,5 @@ values
 
 ## Subtask 3
 
-[My Portfolio](https://github.com/olarostek/MyPortfolio)
+[My Portfolio](https://github.com/olarostek/MyPortfolio/blob/main/README.md)
 
