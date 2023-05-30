@@ -370,3 +370,7 @@ values
 
 14 punktów
 
+## Subtask 3
+
+[My Portfolio](https://github.com/olarostek/MyPortfolio)
+
